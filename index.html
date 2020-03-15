@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clare Radtke</title>
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
   <style>
-    body { 
+    body {
       font-family: 'Playfair Display', serif;
     }
+
     .scene {
       width: 850px;
     }
+
     .profile-pic {
       width: 200px;
       float: right;
-      position: relative;
-      top: -50px;
-      right: 650px;
+      display: block;
     }
+    .Bio {
+      width: 700px;
+    }
+
     header {
       background-image: url(background.jpeg);
       background-size: cover;
@@ -26,6 +31,7 @@
       background-color: lavender;
       height: 200px;
     }
+
     ul {
       list-style-type: none;
       margin: 0;
@@ -34,41 +40,46 @@
       width: 100px;
       background-color: darkslateblue;
     }
+
     li {
       display: inline;
       text-align: center;
       border-bottom: 1px solid white;
     }
+
     li a {
       display: block;
       color: white;
       padding: 8px 16px;
       text-decoration: none;
-      
     }
+
     li a:hover {
       background-color: teal;
     }
+
     li:last-child {
       border-bottom: none;
     }
   </style>
 </head>
+
 <body>
   <header>
     <ul>
-      <li><a href="index.html">Home</a></footer></li>
+      <li><a href="index.html">Home</a></footer>
+      </li>
       <li><a href="page2.html">About me</a></li>
     </ul>
-    
-    
+
+
     <!--<img class="scene" src="background.jpeg" alt="forest with purple flowers between the trees">-->
   </header>
   <h2>New Beginnings</h2>
-    <img class="profile-pic" src="myAnimeAvatar.JPG" alt="A cute anime version of myself!">
-
-  <p class="Bio">Hi I am Clare, <br />New to developing, currently learning JavaScript, HTML and CSS. <br />This will be an experiment, testing zone and eventually a portfolio. <br />A place to make mistakes, learn from them and eventually provide <br />something to the world (even if it is just a glimpse into my mind).</p>
-
+  <p class="Bio">Hi I am Clare, <img class="profile-pic" src="myAnimeAvatar.JPG" alt="A cute anime version of myself!">
+    <br />New to developing, currently learning JavaScript, HTML and CSS. <br />This will be
+    an experiment, testing zone and eventually a portfolio. <br />A place to make mistakes, learn from them and
+    eventually provide <br />something to the world (even if it is just a glimpse into my mind).</p>
   <footer>
     <p>Find me at:</p>
     <a href="https://github.com/ClareRadtke" target="_blank">Github</a>
@@ -76,4 +87,5 @@
   </footer>
 
 </body>
+
 </html>
